@@ -1,0 +1,4 @@
+language: python
+script:
+ - pip install -U pip detox
+ - cd pip-5345 && detox
